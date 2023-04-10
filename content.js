@@ -1,4 +1,4 @@
-const substituteWords = ['Cuzil', 'Bostil', 'Depressil', 'Macaquil', 'Chipanzil', 'Carioquil', 'Pitibulzil', 'Malcriadil', 'Merdil'];
+const substituteWords = ['Cuzil', 'Cupretil', 'Bostil', 'Pardil', 'Lixil', 'Depressil', 'Macaquil', 'Chipanzil', 'Carioquil', 'Pitibulzil', 'Malcriadil', 'Merdil'];
 
 function replaceText(node) {
   const regex = /Brasil/gi;
