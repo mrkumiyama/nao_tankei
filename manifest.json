@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Não Tankei",
+  "version": "1.0",
+  "description": "Substitui a palavra Brasil por diversas palavras de indignação.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
